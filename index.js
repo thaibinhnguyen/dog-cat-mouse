@@ -1,3 +1,6 @@
 const Dog = require("./Dog");
+const Cat = require("./Cat");
 const dog = new Dog("tom");
-dog.sayHi();
+var tom = new Cat();
+dog.eat(tom);
+console.log(dog);
